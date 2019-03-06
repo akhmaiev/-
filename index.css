@@ -1,6 +1,38 @@
-.logo{
-    float: left;
+.logo-name{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    padding: 5px;
+    margin-left: 39px;
 }
-#top-menu{
-    float: right;
+.logo{
+    width: 47px;
+    height: 56px;
+    margin-right: 10px;
+}
+body{
+    background: #b71b12;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+.background-two{
+    background: #e5eaeb;
+}
+footer{
+    display: flex;
+}
+ul#top-menu li{
+    display: inline;
+    margin-right: auto;
+    padding: 10px;
+    text-align: right;
+}
+ul#bottom-menu li{
+    display: inline;
+    margin-right: auto;
+    padding: 10px;
+    text-align: right;
+}
+.banner{
+    margin-left: 33px;
 }
