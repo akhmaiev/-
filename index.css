@@ -11,28 +11,77 @@
     margin-right: 10px;
 }
 body{
-    background: #b71b12;
+    background: #b71b12 url("image/Layer 1.png");
+    margin-top: 9px;
     margin-left: 128px;
     margin-right: 128px;
+    width: 1024px;
 }
 .background-two{
     background: #e5eaeb;
 }
-footer{
+#top-menu {
     display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-end;
 }
-ul#top-menu li{
+#top-menu .li{
+    margin-right: 36px;
+    padding-right: 20px;
+}
+#bottom-menu li{
+    vertical-align: auto;
     display: inline;
     margin-right: auto;
     padding: 10px;
     text-align: right;
+    width: 960px;
 }
-ul#bottom-menu li{
-    display: inline;
-    margin-right: auto;
-    padding: 10px;
-    text-align: right;
+#bottom-menu{
+    height: 34px;
+    background: #bc4333;
+    margin-left: 33px;
+    margin-right: 31px;
+    color: #f2f4f4;
 }
 .banner{
     margin-left: 33px;
+}
+footer {
+    background: #1f1f1f;
+    display: flex;
+    color: honeydew;
+}
+.footer-one{
+    margin-left: 26px;
+    font: bold;
+    font-size: 24px;
+}
+.footer-two{
+   align-items: flex-end;
+}
+h3{
+    margin-left: 45px;
+}
+.banner-form{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+.form{
+    display: flex;
+    margin-left: 13px;
+    flex-direction: column;
+    width: auto;
+    padding: 10px;
+    background: url("image/login.png");
+    color: honeydew;
+}
+.bottom-text{
+    display: flex;
 }
