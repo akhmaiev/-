@@ -1,3 +1,18 @@
+/*Глобальная разметка, фоны, базовые параметры*/
+body {
+    background: #b71b12 url("image/Layer 1.png");
+    margin-top: 9px;
+    margin-left: 128px;
+    margin-right: 128px;
+
+}
+.background-two {
+    width: 1024px;
+    background: #e5eaeb;
+}
+ul{
+    list-style: none;
+}
 .logo-name{
     display: flex;
     flex-direction: row ;
@@ -11,35 +26,20 @@
     margin-right: 10px;
     margin-top: 0;
 }
-body{
-    background: #b71b12 url("image/Layer 1.png");
-    margin-top: 9px;
-    margin-left: 128px;
-    margin-right: 128px;
-    width: 1024px;
-}
-.background-two{
-    background: #e5eaeb;
-}
 #top-menu {
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 0;
-    list-style: none;
+    padding: 10px;
     justify-content: flex-end;
-}
-#top-menu .li{
-    margin-right: 36px;
-    padding-right: 20px;
-}
+    }
 #bottom-menu li{
-    vertical-align: auto;
+    align-items: center;
     display: inline;
     margin-right: auto;
     padding: 10px;
     text-align: right;
-    width: 960px;
+
 }
 #bottom-menu{
     height: 34px;
@@ -47,22 +47,28 @@ body{
     margin-left: 33px;
     margin-right: 31px;
     color: #f2f4f4;
+    width: 922px;
+    margin-top: 0;
 }
 .banner{
     margin-left: 33px;
+    width: 675px;
+    height: 309px;
+
 }
 footer {
     background: #1f1f1f;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: honeydew;
-}
+   }
 .footer-one{
     margin-left: 26px;
     font: bold;
     font-size: 24px;
 }
 .footer-two{
-   align-items: flex-end;
 }
 h3{
     margin-left: 45px;
@@ -79,7 +85,7 @@ a {
     margin-left: 13px;
     flex-direction: column;
     align-items: center;
-    width: auto;
+    width: 270px;
     padding: 10px;
     background: url("image/login.png");
     color: honeydew;
@@ -93,4 +99,11 @@ a {
 }
 .bottom-colomn22{
     margin-left: 34px;
+}
+/*--------------стилизация текста------------*/
+.title-two, .red-title{
+color: #BC4333;
+}
+ul.mark{
+    list-style: square;
 }
