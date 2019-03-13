@@ -1,0 +1,231 @@
+/*Глобальная разметка, фоны, базовые параметры*/
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+
+    background: #b71b12 url("image/Layer 1.png") repeat;
+    color: #737070;
+}
+.title-two, .red-title{
+color: #BC4333;
+}
+ul{
+list-style: none;
+
+}
+li{
+    padding: 0;
+}
+a {
+   text-decoration: none;
+    color: unset;
+}
+.head, .article-cont {
+    margin-left: 33px;
+}
+h1{font-size: 42px;}
+h3{font-size: 22px;}
+/*---------Шапка сайта--------*/
+
+
+#top-layer{
+    background: #3f3f3f;
+    height: 9px;
+}
+.background-layer {
+    /*белый фон для контента*/
+    margin-top: 9px;
+    width: 1024px;
+    background: #e5eaeb;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+.head{
+    /*контейнер для того что бы все элемены в шапке были флексами*/
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    /*логотип*/
+width: 47px;
+height: 56px;
+margin-right: 10px;
+margin-top: 0;
+}
+.logo-name-topmenu{
+    /*контейнер для (логотипа и текста к нему) и топ меню*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.logo-name{
+    /*логотип и текс*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-cont{
+    /*контейнер для блоков главного и нижнего меню*/
+    display: flex;
+    flex-direction: column;
+}
+#top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-right: 37px;
+    margin-bottom: 0;
+}
+#top-menu a:hover,
+#top-menu a:focus {
+    color: #BC4333;
+}
+#top-menu li{
+    margin-right: 19px;
+}
+.bottom-menu-cont{
+    /*контейнер для нижнего меню и "Call as"*/
+    display: flex;
+    justify-content: space-between;
+    background: #bc4333;
+    color: #f2f4f4;
+    margin-right: 31px;
+    margin-bottom: 13px;
+}
+#bottom-menu{
+    display: flex;
+
+}
+#bottom-menu a:hover,
+#bottom-menu a:focus{
+    background-color: #3f3f3f;
+}
+#bottom-menu li{
+    padding-right: 38px;
+
+}
+
+.call-bottom-menu{
+margin-right: 31px;
+}
+/*--------------контентная часть сайта--------------*/
+.article-cont{
+    /*контейнер для баннера, формы, нижних текстовых полей. до футера*/
+    display: flex;
+    flex-direction: column;
+}
+.banner-form{
+    /*контейнер для баннера и формы*/
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+.banner{
+    width: 675px;
+    height: 309px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 13px;
+    align-items: center;
+    width: 270px;
+    padding: 10px;
+    background: url("image/login.png") no-repeat;
+    color: #e4e7e7;
+
+}
+.text-cont{
+    /*контейнер для текстовых блоков*/
+    display: flex;
+    flex-direction: row;
+}
+.text-cont-works{
+    /*контейнер для картинок и подписей к ним текстового блока "как это работает"*/
+    background: #f3f8ff;
+    width: 571px;
+    height: 142px;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+}
+.image-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#check{
+    width: 108px;
+    height: 79px;
+}
+#gold{
+    width: 113px;
+    height: 74px;
+}
+#money{
+    width: 78px;
+    height: 78px;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1f1f1f;
+    color: honeydew;
+}
+.footer-block{
+    display: flex;
+}
+.footer-one{
+    margin-left: 25px;
+    font-family: "Bebas Neue", Arial, sans-serif;;
+
+    font-style: bold;
+    font-size: 24px;
+}
+
+.footer-two{
+    margin-right: 14px;
+}
+
+
+
+
+
+
+
+
+
+/*.form button{*/
+    /*color: #e4e7e7;*/
+    /*background: #b71b12;*/
+    /*font: inherit;*/
+    /*border: none;*/
+    /*height: 35px;*/
+    /*font-size: 18px;*/
+    /*font-weight: bold;*/
+/*}*/
+
+
+/*.footer-two{*/
+/*}*/
+/*!*--------------стилизация текста------------*!*/
+/*.title-two, .red-title{*/
+/*color: #BC4333;*/
+/*}*/
+/*ul.mark{*/
+    /*list-style: square;*/
+/*}*/
