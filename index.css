@@ -13,11 +13,13 @@ body {
 .title-two, .red-title{
 color: #BC4333;
 }
+.up{
+    text-transform: uppercase;
+}
 ul{
 list-style: none;
     margin: 0;
     padding: 0;
-
 }
 li{
     padding: 0;
@@ -26,22 +28,32 @@ a {
    text-decoration: none;
     color: unset;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 .head, .article-cont {
     margin-left: 33px;
     margin-right: 31px;
 }
 h1{font-size: 34px;}
 h3{font-size: 22px;}
+h1, h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 /*---------Шапка сайта--------*/
 
 
 #top-layer{
-    background: #3f3f3f;
+    margin-top: 9px;
+    background: #1f1f1f;
     height: 9px;
+
 }
 .background-layer {
     /*белый фон для контента*/
-    margin-top: 9px;
+
     width: 1024px;
     background: #e5eaeb;
     margin-left: 128px;
@@ -64,6 +76,7 @@ margin-top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 13px;
     margin-bottom: 13px;
     margin-left: 7px;
 }
@@ -151,41 +164,63 @@ margin-right: 31px;
     padding: 10px;
     background: url("image/login.png") no-repeat;
     color: #e4e7e7;
-
 }
-.text-cont{
-    /*контейнер для текстовых блоков*/
+.text-section-one h3{margin-bottom: 27px}
+.text-section-two h3{margin-bottom: 20px}
+
+.text-section{
+    /* Общий контейнер для текстовых секций*/
     display: flex;
     flex-direction: row;
     width: 962px;
     height: 179px;
     margin-bottom: 34px;
 }
-.text-cont-works{
-    /*контейнер для картинок и подписей к ним текстового блока "как это работает"*/
-    background: #f3f8ff;
-    width: 571px;
-    height: 142px;
+.text-section-one{
+    /* первая текстовая секция */
+width: 391px;
+}
 
+.text-section-two{
+    /* вторая ткстовая секция */
+    width: 570px;
+}
+.image-section{
+    margin-top: 20px;
+}
+.text-cont-works{
+    /*контейнер для картинок и подписей  во второй секции (без заголовка) */
+    background: #f3f8ff;
+    width: 570px;
+    height: 142px;
     display: flex;
     flex-direction: column;
-    margin-left: 36px;
-}
-.image-text{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /*margin-top: 21px;*/
 
 }
+
+
+.image-text-section{
+    /*контейнер для картинок во второй секции*/
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+/* картинки для второй текстовой секции*/
 #check{
+    margin-left: 35px;
     width: 108px;
-    height: 79px;
+    height: auto;
 }
 #gold{
+    margin-left: 95px;
     width: 113px;
     height: 74px;
 }
 #money{
+    margin-left: 97px;
     width: 78px;
     height: 78px;
 }
@@ -193,22 +228,26 @@ margin-right: 31px;
     display: flex;
     justify-content: space-around;
 }
+
+/*------футеровочка------*/
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background: #1f1f1f;
     color: honeydew;
+    height: 69px;
 }
 .footer-block{
     display: flex;
     margin-right: 33px;
 }
 .footer-one{
+    margin: 0;
     margin-left: 25px;
     font-family: "Bebas Neue", Arial, sans-serif;;
-
-    font-style: bold;
+    font-weight: bold;
     font-size: 24px;
 }
 
