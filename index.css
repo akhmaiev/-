@@ -15,6 +15,8 @@ color: #BC4333;
 }
 ul{
 list-style: none;
+    margin: 0;
+    padding: 0;
 
 }
 li{
@@ -26,8 +28,9 @@ a {
 }
 .head, .article-cont {
     margin-left: 33px;
+    margin-right: 31px;
 }
-h1{font-size: 42px;}
+h1{font-size: 34px;}
 h3{font-size: 22px;}
 /*---------Шапка сайта--------*/
 
@@ -62,6 +65,7 @@ margin-top: 0;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 13px;
+    margin-left: 7px;
 }
 .logo-name{
     /*логотип и текс*/
@@ -79,7 +83,6 @@ margin-top: 0;
     flex-direction: row;
     justify-content: flex-end;
     align-self: flex-end;
-    margin-right: 37px;
     margin-bottom: 0;
 }
 #top-menu a:hover,
@@ -87,15 +90,18 @@ margin-top: 0;
     color: #BC4333;
 }
 #top-menu li{
-    margin-right: 19px;
+    padding-left: 19px;
 }
 .bottom-menu-cont{
     /*контейнер для нижнего меню и "Call as"*/
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background: #bc4333;
     color: #f2f4f4;
-    margin-right: 31px;
+    height: 34px;
+
+
     margin-bottom: 13px;
 }
 #bottom-menu{
@@ -104,15 +110,20 @@ margin-top: 0;
 }
 #bottom-menu a:hover,
 #bottom-menu a:focus{
+    /*font-weight: bold;*/
     background-color: #3f3f3f;
 }
-#bottom-menu li{
-    padding-right: 38px;
+#bottom-menu a {
+    padding: 9px 18px 9px 18px ;
+    /*padding-right: 38px;*/
 
 }
 
 .call-bottom-menu{
 margin-right: 31px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
 }
 /*--------------контентная часть сайта--------------*/
 .article-cont{
@@ -124,7 +135,7 @@ margin-right: 31px;
     /*контейнер для баннера и формы*/
     display: flex;
     flex-direction: row;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
 }
 .banner{
     width: 675px;
@@ -146,13 +157,16 @@ margin-right: 31px;
     /*контейнер для текстовых блоков*/
     display: flex;
     flex-direction: row;
+    width: 962px;
+    height: 179px;
+    margin-bottom: 34px;
 }
 .text-cont-works{
     /*контейнер для картинок и подписей к ним текстового блока "как это работает"*/
     background: #f3f8ff;
     width: 571px;
     height: 142px;
-    margin-bottom: 34px;
+
     display: flex;
     flex-direction: column;
     margin-left: 36px;
@@ -188,6 +202,7 @@ footer{
 }
 .footer-block{
     display: flex;
+    margin-right: 33px;
 }
 .footer-one{
     margin-left: 25px;
