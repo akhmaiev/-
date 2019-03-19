@@ -178,7 +178,6 @@ margin-top: 0;
     margin-left: 13px;
     align-items: center;
     width: 270px;
-    /*padding: 10px;*/
     background: url("image/login.png") no-repeat;
     color: #e4e7e7;
 }
@@ -197,7 +196,6 @@ margin-top: 0;
     top: 0;
     left: -24px;
 }
-
 .input{
     margin: 0;
     padding: 0;
@@ -206,16 +204,13 @@ margin-top: 0;
     margin-bottom: 12px;
     padding-left: 15px;
 }
-
 .form button{
-
     border-radius: 3px;
     color: #FFF;
     background: #b71b12;
     border: none;
     font-size: 18px;
     font-weight: bold;
-    border-radius: 3px;
     background: linear-gradient(to top, #a21b11, #e04d3c);
     height: 34px;
 }
@@ -284,7 +279,7 @@ width: 391px;
     flex-direction: column;
 }
 
-.aa{
+.text-img{
     display: flex;
     flex-direction: column;
     font-size: 16px;
