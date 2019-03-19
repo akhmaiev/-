@@ -1,5 +1,6 @@
 /*Глобальная разметка, фоны, базовые параметры*/
 body {
+
     margin: 0;
     padding: 0;
 
@@ -13,9 +14,7 @@ body {
 .title-two, .red-title{
 color: #BC4333;
 }
-.up{
-    text-transform: uppercase;
-}
+
 ul{
 list-style: none;
     margin: 0;
@@ -92,11 +91,13 @@ margin-top: 0;
     flex-direction: column;
 }
 #top-menu {
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-self: flex-end;
-    margin-bottom: 0;
+    font-weight: 500;
+
 }
 #top-menu a:hover,
 #top-menu a:focus {
@@ -107,15 +108,22 @@ margin-top: 0;
 }
 .bottom-menu-cont{
     /*контейнер для нижнего меню и "Call as"*/
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #bc4333;
     color: #f2f4f4;
     height: 34px;
-
-
     margin-bottom: 13px;
+    border-radius: 3px;
+    background: linear-gradient(to top, #a21b11,#c24c3b );
+}
+.layer-cell{
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
 }
 #bottom-menu{
     display: flex;
@@ -123,21 +131,24 @@ margin-top: 0;
 }
 #bottom-menu a:hover,
 #bottom-menu a:focus{
-    /*font-weight: bold;*/
+    border-radius: 3px;
     background-color: #3f3f3f;
+    background: linear-gradient(to top, #1f1f1f,#454545 );
 }
 #bottom-menu a {
     padding: 9px 18px 9px 18px ;
-    /*padding-right: 38px;*/
-
 }
-
 .call-bottom-menu{
-margin-right: 31px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 31px;
     font-size: 18px;
     line-height: 22px;
-    font-weight: bold;
+    z-index: 3;
 }
+
+
+
 /*--------------контентная часть сайта--------------*/
 .article-cont{
     /*контейнер для баннера, формы, нижних текстовых полей. до футера*/
@@ -151,22 +162,86 @@ margin-right: 31px;
     margin-bottom: 28px;
 }
 .banner{
+    border-radius: 3px;
     width: 675px;
     height: 309px;
 }
+/*------------------------FORM--------------------*/
 .form{
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 
     margin-left: 13px;
     align-items: center;
     width: 270px;
-    padding: 10px;
+    /*padding: 10px;*/
     background: url("image/login.png") no-repeat;
     color: #e4e7e7;
 }
-.text-section-one h3{margin-bottom: 27px}
-.text-section-two h3{margin-bottom: 20px}
+.up{
+    position: relative;
+    margin-right: auto;
+    margin-bottom: 19px;
+    margin-top: 13px;
+    margin-left: 50px;
+    font-size: 20px;
+
+    text-transform: uppercase;
+}
+.man-icon{
+    position: absolute;
+    top: 0;
+    left: -24px;
+}
+
+.input{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+}
+
+.form button{
+
+    border-radius: 3px;
+    color: #FFF;
+    background: #b71b12;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    background: linear-gradient(to top, #a21b11, #e04d3c);
+    height: 34px;
+}
+.button-log{
+    margin-top: 13px;
+    width: 85px;
+}
+.member{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.button-open{
+    width: 184px;
+}
+/*----------------------text section-----------------*/
+.hh{
+    /*толщина h3*/
+    font-weight: bold;
+}
+.text-section-one h3 {
+    margin-left: 13px;
+    margin-bottom: 27px
+}
+.text-section-two h3{
+    margin-bottom: 20px
+}
 
 .text-section{
     /* Общий контейнер для текстовых секций*/
@@ -180,47 +255,68 @@ margin-right: 31px;
     /* первая текстовая секция */
 width: 391px;
 }
-
+.mark{
+    margin-left: 40px;
+    list-style-image: url("image/mark.png");
+}
 .text-section-two{
-    /* вторая ткстовая секция */
+    /* вторая текстовая секция */
     width: 570px;
+
 }
 .image-section{
+    display: flex;
     margin-top: 20px;
+    width: 570px;
+    align-items: baseline;
+    justify-content: space-around;
+    background: url("image/layer30.png") no-repeat;
+    background-position: center;
 }
 .text-cont-works{
     /*контейнер для картинок и подписей  во второй секции (без заголовка) */
-    background: #f3f8ff;
+    border-radius: 3px;
+    border: 1px solid rgba(69, 69, 69, 0.3);
+    background: #f2f4f4;
     width: 570px;
     height: 142px;
     display: flex;
     flex-direction: column;
-    /*margin-top: 21px;*/
-
 }
 
-
-.image-text-section{
-    /*контейнер для картинок во второй секции*/
+.aa{
     display: flex;
-    justify-content: space-around;
-    /*align-items: center;*/
-    margin-top: 20px;
-    margin-bottom: 5px;
+    flex-direction: column;
+    font-size: 16px;
+    width: auto;
 }
+.ch{
+    width: 92px;
+    height: auto;
+}
+.go{
+    align-items: center;
+    width: 113px;
+    height: auto;
+}
+.mon{
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: auto;
+}
+
+
 /* картинки для второй текстовой секции*/
 #check{
-    margin-left: 35px;
-    width: 108px;
+    width: 89px;
     height: auto;
 }
 #gold{
-    margin-left: 95px;
     width: 113px;
     height: 74px;
 }
 #money{
-    margin-left: 97px;
     width: 78px;
     height: 78px;
 }
@@ -229,15 +325,18 @@ width: 391px;
     justify-content: space-around;
 }
 
+
+
 /*------футеровочка------*/
 footer{
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background: #1f1f1f;
     color: honeydew;
-    height: 69px;
+    height: 63px;
 }
 .footer-block{
     display: flex;
@@ -263,23 +362,5 @@ footer{
 
 
 
-/*.form button{*/
-    /*color: #e4e7e7;*/
-    /*background: #b71b12;*/
-    /*font: inherit;*/
-    /*border: none;*/
-    /*height: 35px;*/
-    /*font-size: 18px;*/
-    /*font-weight: bold;*/
-/*}*/
 
 
-/*.footer-two{*/
-/*}*/
-/*!*--------------стилизация текста------------*!*/
-/*.title-two, .red-title{*/
-/*color: #BC4333;*/
-/*}*/
-/*ul.mark{*/
-    /*list-style: square;*/
-/*}*/
