@@ -14,8 +14,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="-731">
+              <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -23,8 +23,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="259" column="25" selection-start-line="259" selection-start-column="25" selection-end-line="259" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -62,6 +62,9 @@
       <find>hove</find>
       <find>mon</find>
       <find>chec</find>
+      <find>title</find>
+      <find>red</find>
+      <find>ho</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,6 +110,11 @@
             <path>
               <item name="Arcada" type="b2602c69:ProjectViewProjectNode" />
               <item name="Arcada" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arcada" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcada" type="462c0819:PsiDirectoryNode" />
+              <item name="Дизайн" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,18 +175,19 @@
       <workItem from="1552598085370" duration="3917000" />
       <workItem from="1552985452412" duration="13386000" />
       <workItem from="1553023005523" duration="8028000" />
-      <workItem from="1553072177886" duration="4422000" />
+      <workItem from="1553072177886" duration="5567000" />
+      <workItem from="1553109147350" duration="1172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114731000" />
+    <option name="totallyTimeSpent" value="117048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="301" y="240" width="167" height="629" id="Project" order="0" side_tool="true" visible="true" weight="0.07686676" />
+      <window_info active="true" content_ui="combo" x="301" y="240" width="167" height="629" id="Project" order="0" side_tool="true" visible="true" weight="0.0761347" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32903227" />
@@ -208,13 +217,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -368,6 +370,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Дизайн/Beautiful Professional Business Template in Photoshop PSD for Free Download - cssauthor.com.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -380,15 +385,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="-731">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="259" column="25" selection-start-line="259" selection-start-column="25" selection-end-line="259" selection-end-column="25" />
         </state>
       </provider>
     </entry>

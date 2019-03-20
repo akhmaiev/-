@@ -122,6 +122,12 @@ nav{
 #bottom-menu{
     display: flex;
 }
+#home-active a{
+    padding: 9px 18px 9px 18px ;
+    border-radius: 3px;
+    background-color: #3f3f3f;
+    background: linear-gradient(to top, #1f1f1f,#454545 );
+}
 #bottom-menu a:hover,
 #bottom-menu a:focus{
     border-radius: 3px;
